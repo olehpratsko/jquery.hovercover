@@ -1,0 +1,50 @@
+.hovercover {
+  overflow: hidden;
+  position: relative;
+}
+.hovercover-sizekeeper {
+  max-width: 100%;
+  visibility: hidden;
+}
+.hovercover-images {
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.hovercover-image {
+  left: 50%;
+  max-width: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  transition: .25s;
+  -webkit-transition: .25s;
+}
+.hovercover-image:first-child {
+  opacity: 1;
+}
+.hovercover-tabs-wrapper {
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.hovercover-tabs {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.hovercover-tab {
+  display: table-cell;
+}
+
+/* Uncomment for fade animation
+.hovercover-image {
+  -webkit-transition: .25s;
+  transition: .25s;
+}
+*/
